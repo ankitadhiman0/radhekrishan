@@ -1,0 +1,78 @@
+*{
+margin: 0;
+padding: 0;
+}
+html{
+     font-size: 62%;
+     overflow-x: hidden;
+     scroll-behavior: smooth;
+     scroll-padding-top: 7rem;
+}
+body{
+    background: pink;
+}
+.header{
+    position: fixed;
+    z-index: 1000;
+    align-items: center;
+    background: rgb(238, 164, 201);
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    top: 0; 
+    left: 0;
+    right: 0;
+}
+.header .navbar a{
+    font-size: 2rem;
+    margin: 0 1rem;
+    color: black;
+}
+#home{
+    display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.mainimg img{
+   max-width: 100%;
+   border-radius: 50%;
+   
+}
+.text{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.text h1
+{
+text-align: center;
+padding: 3rem;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .column img{
+    padding: 7rem;
+   
+  }
+  .heading{
+    font-size: 70px;
+    text-align: center;
+    color: rgb(226, 43, 98);
+  }
+  #gallary{
+    padding-top: 5rem;
+  }
+  .para{
+    text-align: center;
+  }
+
+
+  
